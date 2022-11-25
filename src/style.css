@@ -37,7 +37,8 @@ body {
   padding-top: 25px;
 }
 
-.btn-contact {
+.btn-contact,
+.btn-contactme {
   background-color: var(--main-color);
   font-family: var(--default-font-family);
   color: white;
@@ -51,4 +52,105 @@ body {
 :hover.btn-contact {
   border: 1px solid var(--main-color);
   color: var(--main-color);
+}
+
+:hover.btn-contactme {
+  border: 1px solid white;
+  color: white;
+}
+
+.second-card {
+  margin: 150px 0 100px 0;
+}
+
+.work-title {
+  font-family: var(--header-font-family);
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.work-card-number {
+  font-weight: 400;
+  font-size: 150px;
+  color: rgba(1, 153, 109, 0.2);
+}
+
+.work-card-title {
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--third-color);
+}
+
+.btn-learn-more {
+  font-family: var(--default-font-family);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  padding: 20px 50px;
+  margin-top: 25px;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+:hover.btn-learn-more {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.work-card-text {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--third-color);
+  max-width: 390px;
+  margin: 20px;
+}
+
+.call-card {
+  background-color: var(--second-color);
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  height: 225px;
+}
+
+.work-inquiry {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.let-work {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.mail-title {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 30px;
+  margin: 45px 0;
+}
+
+:hover.mail-title {
+  text-decoration: underline;
+  color: var(--second-color);
+}
+
+.fa-brands {
+  font-size: 24px;
+  color: var(--main-color);
+  margin: 0 10px 30px 0;
+  padding: 15px 15px;
+  border: solid 1px var(--main-color);
+  border-radius: 50%;
+}
+
+:hover.fa-brands {
+  background-color: var(--second-color);
+  color: white;
 }
