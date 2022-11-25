@@ -105,7 +105,6 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: var(--third-color);
-  max-width: 390px;
   margin: 20px;
 }
 
@@ -124,7 +123,6 @@ body {
 
 .let-work {
   font-family: var(--default-font-family);
-  text-decoration: none;
   font-weight: 600;
   font-size: 25px;
 }
@@ -137,7 +135,6 @@ body {
 }
 
 :hover.mail-title {
-  text-decoration: underline;
   color: var(--second-color);
 }
 
@@ -153,4 +150,79 @@ body {
 :hover.fa-brands {
   background-color: var(--second-color);
   color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 960px) {
+  .img-title {
+    height: 600px;
+  }
+
+  .main-title {
+    font-size: 45px;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .btn-contact {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+  .work-title {
+    font-size: 18px;
+    margin: 50px 0;
+  }
+
+  .work-card-number {
+    font-size: 80px;
+  }
+
+  .work-card-title {
+    font-size: 20px;
+  }
+
+  .work-card-text {
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .second-card {
+    margin-top: 60px;
+  }
+
+  .btn-learn-more {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .work-img-third {
+    margin-bottom: 50px;
+  }
+
+  .work-inquiry {
+    font-weight: 400;
+    font-size: 35px;
+  }
+
+  .let-work {
+    font-size: 15px;
+  }
+
+  .btn-contactme {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .mail-title {
+    font-size: 20px;
+  }
+
+  .fa-brands {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
 }
