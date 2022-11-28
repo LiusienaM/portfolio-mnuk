@@ -38,7 +38,8 @@ body {
 }
 
 .btn-contact,
-.btn-contactme {
+.btn-contactme,
+.btn-project {
   background-color: var(--main-color);
   font-family: var(--default-font-family);
   color: white;
@@ -57,6 +58,11 @@ body {
 :hover.btn-contactme {
   border: 1px solid white;
   color: white;
+}
+
+:hover.btn-project {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
 }
 
 .second-card {
@@ -152,7 +158,76 @@ body {
   color: white;
 }
 
-/* Responsive */
+/* About me page */
+
+.img-aboutme {
+  padding: 80px 20px 80px 60px;
+}
+
+.about-title {
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 50px;
+  padding-top: 120px;
+}
+
+.about-subtitle {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--third-color);
+  padding-top: 20px;
+}
+
+.about-text {
+  padding-top: 18px;
+  max-width: 450px;
+  font-weight: 400;
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.video-card {
+  background-color: var(--second-color);
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.video-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+.video-subtitle {
+  font-family: var(--default-font-family);
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.video {
+  width: 1100px;
+  height: 720px;
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0 70px 0;
+}
+
+.call-card-about {
+  margin-top: 80px;
+}
+
+/* Responsive home page */
 
 @media (max-width: 960px) {
   .img-title {
@@ -225,5 +300,45 @@ body {
   .fa-brands {
     font-size: 18px;
     padding: 10px 10px;
+  }
+
+  /* About me responsive  */
+
+  .img-aboutme {
+    padding: 20px 0 0 0;
+    width: 408px;
+  }
+
+  .about-title {
+    padding: 40px 0 0 0;
+    font-size: 36px;
+  }
+
+  .about-subtitle {
+    font-size: 20px;
+  }
+
+  .about-text {
+    font-size: 14px;
+  }
+
+  .btn-project {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .video-title {
+    font-size: 20px;
+  }
+
+  .video-subtitle {
+    font-size: 16px;
+  }
+
+  .video {
+    max-width: 90%;
+    max-height: 70%;
+    width: 700px;
+    height: 450px;
   }
 }
