@@ -210,11 +210,6 @@ body {
   padding-top: 15px;
 }
 
-video {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .video {
   width: 1100px;
   height: 720px;
@@ -225,6 +220,35 @@ video {
 
 .call-card-about {
   margin-top: 80px;
+}
+
+/* Work page */
+
+.project-title {
+  color: var(--main-color);
+  text-align: center;
+  margin: 80px 0;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.project-img {
+  border-radius: 15px;
+}
+
+.project-subtitle {
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--second-color);
+  margin: 15px 0;
+}
+
+.project-text {
+  color: var(--third-color);
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 70px;
 }
 
 /* Responsive home page */
