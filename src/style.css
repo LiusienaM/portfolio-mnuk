@@ -10,6 +10,42 @@ body {
   font-family: var(--header-font-family);
 }
 
+/* Navbar */
+
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 25px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--third-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+/* Header */
+
 .header {
   text-align: center;
 }
@@ -361,24 +397,31 @@ body {
   /* About me responsive  */
 
   .img-aboutme {
-    padding: 20px 0 0 0;
-    width: 408px;
+    padding: 0;
+    /* width: 408px; */
   }
 
   .about-title {
+    text-align: center;
     padding: 40px 0 0 0;
     font-size: 36px;
   }
 
   .about-subtitle {
+    text-align: center;
     font-size: 20px;
   }
 
   .about-text {
+    text-align: center;
     font-size: 14px;
+    max-width: 100%;
   }
 
   .btn-project {
+    display: block;
+    margin: 30px auto;
+    max-width: 180px;
     font-size: 16px;
     padding: 10px 30px;
   }
@@ -396,5 +439,15 @@ body {
     max-height: 70%;
     width: 700px;
     height: 450px;
+  }
+
+  /* Navbar */
+
+  nav a {
+    font-size: 14px;
+  }
+
+  .logo {
+    max-height: 30px;
   }
 }
