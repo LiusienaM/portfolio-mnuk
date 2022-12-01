@@ -251,6 +251,38 @@ body {
   margin-bottom: 70px;
 }
 
+/* Contact page */
+
+.contact-title {
+  color: var(--main-color);
+  margin: 80px 0 40px 0;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.contact-subtitle {
+  color: var(--third-color);
+  margin: 20px 0 20px 0;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.contact-link {
+  color: var(--third-color);
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+}
+
+:hover.contact-link {
+  color: var(--main-color);
+}
+
+.second-tel {
+  margin-bottom: 80px;
+}
+
 /* Responsive home page */
 
 @media (max-width: 960px) {
