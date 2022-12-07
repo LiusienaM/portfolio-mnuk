@@ -327,6 +327,10 @@ nav li.active a {
 /* Responsive home page */
 
 @media (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .img-title {
     height: 600px;
   }
